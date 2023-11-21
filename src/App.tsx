@@ -4,12 +4,12 @@ import ScrollBox from './components/ScrollBox/ScrollBox.tsx';
 function App() {
   return (
     <>
-      <main>
-        <Toolbar/>
-      </main>
       <header>
-        <ScrollBox/>
+        <Toolbar/>
       </header>
+      <main>
+        <ScrollBox/>
+      </main>
     </>
   );
 }
