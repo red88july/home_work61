@@ -1,4 +1,5 @@
 import Toolbar from './components/Toolbar/Toolbar';
+import ScrollBox from './components/ScrollBox/ScrollBox.tsx';
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
         <Toolbar/>
       </main>
       <header>
-
+        <ScrollBox/>
       </header>
     </>
   );
