@@ -17,7 +17,7 @@ const ScrollBox: React.FC = () => {
         console.log(`Fethcing data is error`, e);
       }
     };
-    fetchData();
+    void fetchData();
   }, []);
 
   const flag = 'https://cdn11.bigcommerce.com/s-2lbnjvmw4d/images/stencil/1280x1280/products/3131/5205/russiaflag__64883.1614611428.jpg?c=2';
